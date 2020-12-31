@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="70845c46-03e2-47e3-a5fb-03b32bcb363b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Example Dataset_d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example Dataset_e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google Stock_d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google Stock_e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oracle Stock_d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oracle Stock_e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SP500 ETF_d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SP500 ETF_e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StockPricePrediction_v6d_corr_matrix_lags.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tesla Stock_e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/GOOG.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/agg_timestamp_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/agg_timestamp_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/agg_timestamp_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/agg_timestamp_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/agg_timestamp_shap_value.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/agg_timestamp_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/autocorrelation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/baseline_plot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/baseline_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/data_after_scaling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/decomposition.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/final_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/final_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/final_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/final_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/final_shap_value.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/final_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/hist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/histafter_scaling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/initial_data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/lagsXXagg_timestamp_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/lagsXXagg_timestamp_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/lagsXXagg_timestamp_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/lagsXXagg_timestamp_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/lagsXXagg_timestamp_shap_value.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/lagsXXagg_timestamp_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/lags_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/lags_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/lags_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/lags_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/lags_shap_value.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/lags_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/moving_average_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/moving_average_20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/moving_average_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/moving_average_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/only_timestamp_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/only_timestamp_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/only_timestamp_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/only_timestamp_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/only_timestamp_shap_value.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/only_timestamp_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/smooth_timestamp_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/smooth_timestamp_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/smooth_timestamp_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/smooth_timestamp_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/smooth_timestamp_shap_value.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset/smooth_timestamp_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Example Dataset_rolling_mean.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Google Stock/agg_timestamp_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Google Stock/agg_timestamp_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Google Stock/agg_timestamp_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Google Stock/agg_timestamp_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Google Stock/agg_timestamp_shap_value.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Google Stock/agg_timestamp_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Google Stock/autocorrelation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Google Stock/baseline_plot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Google Stock/baseline_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Google Stock/data_after_scaling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Google Stock/hist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Google Stock/histafter_scaling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Google Stock/initial_data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Google Stock/lags_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Google Stock/lags_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Google Stock/lags_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Google Stock/lags_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Google Stock/lags_shap_value.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Google Stock/lags_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Google Stock/moving_average_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Google Stock/moving_average_20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Google Stock/moving_average_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Google Stock/moving_average_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Google Stock/smooth_timestamp_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Google Stock/smooth_timestamp_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Google Stock/smooth_timestamp_shap_value.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Google Stock/smooth_timestamp_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Google Stock_decomposition.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Google Stock_rolling_mean.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/agg_timestamp_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/agg_timestamp_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/agg_timestamp_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/agg_timestamp_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/agg_timestamp_shap_value.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/agg_timestamp_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/autocorrelation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/baseline_plot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/baseline_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/data_after_scaling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/decomposition.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/final_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/final_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/final_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/final_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/final_shap_value.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/final_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/hist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/histafter_scaling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/initial_data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/lagsXXagg_timestamp_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/lagsXXagg_timestamp_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/lagsXXagg_timestamp_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/lagsXXagg_timestamp_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/lagsXXagg_timestamp_shap_value.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/lagsXXagg_timestamp_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/lags_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/lags_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/lags_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/lags_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/lags_shap_value.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/lags_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/moving_average_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/moving_average_20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/moving_average_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/moving_average_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/only_timestamp_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/only_timestamp_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/only_timestamp_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/only_timestamp_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/only_timestamp_shap_value.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/only_timestamp_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/smooth_timestamp_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/smooth_timestamp_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/smooth_timestamp_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/smooth_timestamp_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/smooth_timestamp_shap_value.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Nio Stock/smooth_timestamp_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/agg_timestamp_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/agg_timestamp_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/agg_timestamp_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/agg_timestamp_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/agg_timestamp_shap_value.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/agg_timestamp_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/autocorrelation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/baseline_plot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/baseline_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/data_after_scaling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/decomposition.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/final_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/final_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/final_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/final_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/final_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/hist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/histafter_scaling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/initial_data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/lagsXXagg_timestamp_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/lagsXXagg_timestamp_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/lagsXXagg_timestamp_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/lagsXXagg_timestamp_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/lagsXXagg_timestamp_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/lags_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/lags_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/lags_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/lags_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/lags_shap_value.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/lags_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/moving_average_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/moving_average_20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/moving_average_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/moving_average_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/only_timestamp_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/only_timestamp_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/only_timestamp_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/only_timestamp_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/only_timestamp_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/smooth_timestamp_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/smooth_timestamp_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/smooth_timestamp_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/smooth_timestamp_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/smooth_timestamp_shap_value.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Oracle Stock/smooth_timestamp_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/agg_timestamp_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/agg_timestamp_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/agg_timestamp_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/agg_timestamp_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/agg_timestamp_shap_value.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/agg_timestamp_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/autocorrelation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/baseline_plot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/baseline_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/data_after_scaling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/decomposition.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/final_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/final_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/final_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/final_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/final_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/hist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/histafter_scaling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/initial_data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/lagsXXagg_timestamp_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/lagsXXagg_timestamp_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/lagsXXagg_timestamp_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/lagsXXagg_timestamp_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/lagsXXagg_timestamp_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/lags_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/lags_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/lags_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/lags_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/lags_shap_value.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/lags_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/moving_average_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/moving_average_20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/moving_average_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/moving_average_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/only_timestamp_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/only_timestamp_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/only_timestamp_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/only_timestamp_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/only_timestamp_shap_value.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/only_timestamp_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/smooth_timestamp_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/smooth_timestamp_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/smooth_timestamp_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/smooth_timestamp_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/smooth_timestamp_shap_value.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 ETF/smooth_timestamp_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index/agg_timestamp_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index/agg_timestamp_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index/agg_timestamp_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index/agg_timestamp_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index/agg_timestamp_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index/autocorrelation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index/baseline_plot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index/baseline_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index/data_after_scaling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index/decomposition.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index/final_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index/final_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index/final_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index/final_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index/final_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index/hist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index/histafter_scaling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index/initial_data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index/lagsXXagg_timestamp_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index/lagsXXagg_timestamp_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index/lagsXXagg_timestamp_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index/lagsXXagg_timestamp_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index/lagsXXagg_timestamp_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index/lags_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index/lags_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index/lags_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index/lags_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index/lags_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index/moving_average_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index/moving_average_20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index/moving_average_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index/moving_average_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index/only_timestamp_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index/only_timestamp_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index/only_timestamp_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index/only_timestamp_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index/only_timestamp_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index/smooth_timestamp_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index/smooth_timestamp_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index/smooth_timestamp_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index/smooth_timestamp_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index/smooth_timestamp_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/SP500 index_rolling_mean.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/agg_timestamp_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/agg_timestamp_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/agg_timestamp_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/agg_timestamp_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/agg_timestamp_shap_value.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/agg_timestamp_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/autocorrelation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/baseline_plot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/baseline_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/data_after_scaling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/decomposition.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/final_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/final_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/final_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/final_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/final_shap_value.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/final_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/hist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/histafter_scaling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/initial_data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/lagsXXagg_timestamp_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/lagsXXagg_timestamp_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/lagsXXagg_timestamp_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/lagsXXagg_timestamp_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/lagsXXagg_timestamp_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/lags_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/lags_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/lags_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/lags_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/lags_shap_value.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/lags_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/moving_average_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/moving_average_20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/moving_average_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/moving_average_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/only_timestamp_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/only_timestamp_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/only_timestamp_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/only_timestamp_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/only_timestamp_shap_value.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/only_timestamp_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/smooth_timestamp_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/smooth_timestamp_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/smooth_timestamp_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/smooth_timestamp_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/smooth_timestamp_shap_value.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Santander Stock/smooth_timestamp_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/agg_timestamp_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/agg_timestamp_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/agg_timestamp_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/agg_timestamp_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/agg_timestamp_shap_value.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/agg_timestamp_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/autocorrelation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/baseline_plot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/baseline_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/data_after_scaling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/decomposition.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/final_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/final_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/final_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/final_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/final_shap_value.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/final_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/hist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/histafter_scaling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/initial_data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/lagsXXagg_timestamp_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/lagsXXagg_timestamp_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/lagsXXagg_timestamp_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/lagsXXagg_timestamp_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/lagsXXagg_timestamp_shap_value.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/lagsXXagg_timestamp_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/lags_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/lags_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/lags_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/lags_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/lags_shap_value.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/lags_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/moving_average_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/moving_average_20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/moving_average_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/moving_average_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/only_timestamp_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/only_timestamp_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/only_timestamp_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/only_timestamp_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/only_timestamp_shap_value.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/only_timestamp_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/original_data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/smooth_timestamp_correlation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/smooth_timestamp_cover_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/smooth_timestamp_gain_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/smooth_timestamp_regression_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/smooth_timestamp_shap_value.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Tesla Stock/smooth_timestamp_weight_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_module/xg_aux.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tesla Stockbaseline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_profiling_module/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_profiling_module/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/draw_data_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/draw_data_module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature_engineering_module/smoothing_operators.py" beforeDir="false" afterPath="$PROJECT_DIR$/feature_engineering_module/smoothing_operators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kddprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/kddprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Nio Stock_decomposition.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/Nio Stock_decomposition.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Nio Stock_diff_reg_agg_timestamp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Nio Stock_diff_reg_baseline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Nio Stock_diff_reg_dfs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Nio Stock_diff_reg_final.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Nio Stock_diff_reg_lags.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Nio Stock_diff_reg_lagsXXagg_timestamp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Nio Stock_diff_reg_only_timestamp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Nio Stock_diff_reg_smooth_timestamp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Nio Stock_diff_reg_tsfresh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Nio Stock_final_correlation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Nio Stock_final_feature_importance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Nio Stock_hist.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/Nio Stock_hist.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Nio Stock_initial_data.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Nio Stock_lagsXXagg_timestamp_correlation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Nio Stock_lagsXXagg_timestamp_feature_importance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Nio Stock_lags_correlation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Nio Stock_lags_feature_importance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Nio Stock_log_diff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Nio Stock_only_timestamp_correlation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Nio Stock_only_timestamp_feature_importance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Nio Stock_rolling_mean.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/Nio Stock_rolling_mean.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Nio Stockagg_timestamp_feature_importance.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/Nio Stockagg_timestamp_feature_importance.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Nio Stockfinal_feature_importance.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/Nio Stockfinal_feature_importance.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Nio StocklagsXXagg_timestamp_feature_importance.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/Nio StocklagsXXagg_timestamp_feature_importance.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Nio Stocklags_feature_importance.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/Nio Stocklags_feature_importance.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Nio Stockonly_timestamp_feature_importance.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/Nio Stockonly_timestamp_feature_importance.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Nio Stocksmooth_timestamp_feature_importance.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/Nio Stocksmooth_timestamp_feature_importance.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Oracle Stock_decomposition.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/Oracle Stock_decomposition.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Oracle Stock_hist.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/Oracle Stock_hist.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Oracle Stock_rolling_mean.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/Oracle Stock_rolling_mean.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/SP500 ETF_decomposition.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/SP500 ETF_decomposition.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/SP500 ETF_hist.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/SP500 ETF_hist.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/SP500 ETF_rolling_mean.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/SP500 ETF_rolling_mean.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Santander Stock_decomposition.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/Santander Stock_decomposition.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Santander Stock_hist.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/Santander Stock_hist.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Santander Stock_rolling_mean.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/Santander Stock_rolling_mean.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Santander Stocklags_feature_importance.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/Santander Stocklags_feature_importance.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Tesla Stock_decomposition.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/Tesla Stock_decomposition.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Tesla Stock_hist.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/Tesla Stock_hist.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Tesla Stock_rolling_mean.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/Tesla Stock_rolling_mean.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Tesla Stockagg_timestamp_feature_importance.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/Tesla Stockagg_timestamp_feature_importance.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Tesla Stockfinal_feature_importance.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/Tesla Stockfinal_feature_importance.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Tesla StocklagsXXagg_timestamp_feature_importance.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/Tesla StocklagsXXagg_timestamp_feature_importance.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Tesla Stocklags_feature_importance.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/Tesla Stocklags_feature_importance.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Tesla Stockonly_timestamp_feature_importance.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/Tesla Stockonly_timestamp_feature_importance.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Tesla Stocksmooth_timestamp_feature_importance.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/Tesla Stocksmooth_timestamp_feature_importance.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_module/LSTM.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_module/LSTM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_module/xgboost.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_module/xgboost.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1Zze1DL5B1Iyj81wDJF3XU5c2Ps" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/kddprocess.py" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\helio\PycharmProjects\tese\feature_engineering_module" />
+      <recent name="C:\Users\helio\PycharmProjects\tese\load_data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.kddprocess">
+    <configuration name="g" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tese" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/g.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="kddprocess" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tese" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kddprocess.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="prophet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tese" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/forecasting_module" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/forecasting_module/prophet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="reporting_module" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tese" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\helio\PycharmProjects\tese\reporting_module.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.g" />
+      <item itemvalue="Python.kddprocess" />
+      <item itemvalue="Python.prophet" />
+      <item itemvalue="Python.reporting_module" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.kddprocess" />
+        <item itemvalue="Python.g" />
+        <item itemvalue="Python.prophet" />
+        <item itemvalue="Python.reporting_module" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="70845c46-03e2-47e3-a5fb-03b32bcb363b" name="Default Changelist" comment="" />
+      <created>1585846132157</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585846132157</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604695017681">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1604695017681" />
+    <state width="851" height="466" key="DebuggerActiveHint" timestamp="1603245050644">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="851" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1603245050644" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1604957130914">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1604957130914" />
+    <state width="1515" height="208" key="GridCell.Tab.0.bottom" timestamp="1609449132619">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609449132619" />
+    <state width="1515" height="208" key="GridCell.Tab.0.center" timestamp="1609449132619">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1609449132619" />
+    <state width="1515" height="208" key="GridCell.Tab.0.left" timestamp="1609449132619">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1609449132619" />
+    <state width="1515" height="208" key="GridCell.Tab.0.right" timestamp="1609449132619">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1609449132619" />
+    <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1609205177154">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609205177154" />
+    <state width="1515" height="261" key="GridCell.Tab.1.center" timestamp="1609205177154">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1609205177154" />
+    <state width="1515" height="261" key="GridCell.Tab.1.left" timestamp="1609205177154">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1609205177154" />
+    <state width="1515" height="261" key="GridCell.Tab.1.right" timestamp="1609205177154">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1609205177154" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1604404057301">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1604404057301" />
+    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603735869437">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1603735869437" />
+    <state x="474" y="46" width="611" height="732" key="find.popup" timestamp="1609342674250">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="474" y="46" width="611" height="732" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1609342674250" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1605908338103">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1605908338103" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
